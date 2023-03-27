@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
     .point img {
-        height: 50vh;
+        height: 40vh;
     }
     /* .point1 img {
         height: 40vh;
@@ -88,10 +88,10 @@
         flex-direction: column;
     }
     .horizontal-img {
-        max-width: 500px;
+        max-width: 300px;
     }
     .horizontal-text {
-        max-width: 550px;
+        max-width: 350px;
     }
     .last-title {
         font-size: 3em !important;
