@@ -5,6 +5,12 @@
     /* .point1 img {
         height: 40vh;
     } */
+    .button_container.active .bottom {
+        background: var(--primary-color);
+    }
+    .button_container.active .top {
+        background: var(--primary-color);
+    }
 }
 @media (min-width: 577px) and (max-width: 767px) {
     .point img {
