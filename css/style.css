@@ -76,7 +76,7 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow: hidden;
 }
 p {
     font-weight: var(--fw-medium);
@@ -452,7 +452,7 @@ h3 {
   
   .button_container.active .top {
     transform: translateY(11px) translateX(0) rotate(45deg);
-    background: #fff;
+    background: var(--primary-color);
     width: 100%;
   }
   .button_container.active .middle {
@@ -462,7 +462,7 @@ h3 {
   }
   .button_container.active .bottom {
     transform: translateY(-11px) translateX(0) rotate(-45deg);
-    background: #fff;
+    background: var(--primary-color);
     width: 100%;
   }
   .button_container span {
@@ -670,4 +670,8 @@ h3 {
     z-index: 2;
     min-width: 300px;
     padding-left: 50px;
+  }
+
+  .story-begins-qonte-container {
+    width: 75%;
   }
