@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
     .point img {
-        height: 40vh;
+        height: 50vh;
     }
     /* .point1 img {
         height: 40vh;
@@ -13,9 +13,9 @@
     .point article {
         justify-content: initial;
     }
-    .point1 img {
+    /* .point1 img {
         height: 100vh;
-    }
+    } */
     .point1 article {
         justify-content: initial;
     }
@@ -24,6 +24,9 @@
 
     :root {
         --fs-h3: 1.2rem;
+        --fs-h1: 2.5rem;
+        --fs-f2-h1: 3.5rem;
+        --fs-f2-h2: 4rem;
     }
 
     .container-fluid {
@@ -147,6 +150,9 @@
 
   .story-begins-qonte-container {
     width: auto;
+  }
+  #hero .hero-container {
+    padding-left: 25px;
   }
 }
 
