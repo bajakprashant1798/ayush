@@ -21,6 +21,11 @@
     }
 }
 @media (max-width: 767px) {
+
+    :root {
+        --fs-h3: 1.2rem;
+    }
+
     .container-fluid {
         padding: 25px;
     }

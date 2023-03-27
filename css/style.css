@@ -675,3 +675,64 @@ h3 {
   .story-begins-qonte-container {
     width: 75%;
   }
+
+/* gallery */
+.controls {
+  display: flex;
+  justify-content: center;
+}
+.gallery {
+  min-height: 100vh;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.nav-tabs li {
+  width: 140px;
+  background: #fff;
+  font-size: 1.5rem;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 20px;
+  text-align: center;
+}
+.nav-tabs li a {
+  color: #bf2600;
+  font-family: "GinRegular";
+}
+
+.gallery1,.video1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image,.videolink {
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  border: 15px solid #fff;
+  box-shadow: 0 3px 5px rgba(0,0,0,.3);
+  margin: 20px;
+  object-fit: contain;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.videolink video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.image:hover img {
+  transform: scale(1.2);
+}
+
+button:focus {
+  outline: none;
+}
+/* gallery */
